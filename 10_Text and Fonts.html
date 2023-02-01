@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text and fonts in css</title>
+    <style>
+        .a
+        {
+            vertical-align: baseline;
+        }
+        .b{
+            vertical-align: text-top;
+        }
+        .c{
+            vertical-align: text-bottom;
+        }
+        .d{
+           vertical-align: sub;
+        }
+        .e{
+           vertical-align: super;
+        }
+        h1{
+            text-shadow : 2px 2px 5px fuchsia;
+        }
+        #a
+        {
+            font-family:'Times New Roman', Times, serif;
+
+        }
+        #b
+        {
+            font-family: cursive;
+            font-size: x-large;
+            font-weight: 400;
+            font-variant: small-caps;
+        }
+        #c{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome back , let's understand text and font properties</h1>
+
+   <!-- <p class = "sample">Facebook can be accessed from devices with 
+        Internet connectivity, such as personal computers, tablets 
+        and smartphones. After registering, users can create a profile
+        revealing information about themselves. They can post text, 
+        photos and multimedia which are shared with any other users 
+        who have agreed to be their "friend" or, with different privacy 
+        settings, publicly.</p> 
+        <p>This image <img class="a" src="Images/Tata_logo.png" width="12" height="15">gives you an idea of Tata motors</p>
+        <p>This image <img class="b" src="Images/Tata_logo.png" width="12" height="5">gives you an idea of Tata motors</p>
+        <p>This image <img class="c" src="Images/Tata_logo.png" width="12" height="15">gives you an idea of Tata motors</p>
+        <p>This image <img class="d" src="Images/Tata_logo.png" width="12" height="15">gives you an idea of Tata motors</p>
+        <p>This image <img class="e" src="Images/Tata_logo.png" width="12" height="15">gives you an idea of Tata motors</p> -->
+
+        <p style = "text-decoration:line-through;" >My name is Sushant</p>
+        <p style = "text-transform: capitalize">I am glad that you are learning something</p>
+        <p style = "text-indent: 50px; letter-spacing: 0px; word-spacing:20%;">
+            Facebook can be accessed from devices with 
+        Internet connectivity, such as personal computers, tablets 
+        and smartphones. After registering, users can create a profile
+        revealing information about themselves. They can post text, 
+        photos and multimedia which are shared with any other users 
+        who have agreed to be their "friend" or, with different privacy 
+        settings, publicly.
+
+        </p>
+
+        <p id="a">My name is Sushant</p>
+        <p id="b">My name is Sushant</p>
+        <p id="c">My name is Sushant</p>
+                
+
+</body>
+</html>
