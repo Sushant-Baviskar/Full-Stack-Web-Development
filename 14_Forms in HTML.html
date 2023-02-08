@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">firstname</label>
+        <input type="text" id="fname" name="firstname" value="Sushant">
+        <br>
+        <label for="lname">lastname</label>
+        <input type="text" id="lname" name="lastname" value="Baviskar">
+        <br>
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="uname">username</label>
+        <input type="text" id="uname" name="username" required>
+        <br>
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="password" required>
+        <br> 
+        <label for="file">Upload your resume</label>
+        <input type="file" id="file" name="file" >
+        <br>
+        <label>resigning month and year</label>
+        <input type="month" >
+        <br>  
+        <label>Input any no. from 1 to 25</label>
+        <input type="number" max="25" min="1">
+        <br>
+        <label>Marks(Between 1 to 50)</label>
+        <input type="range" max="50" min="1">
+        <br>
+        <label>Google Search</label>
+        <input type="search">
+        <br>          
+        <button>Submit</button>
+        <br>
+        <br>
+        <label>Choose the language</label><br>
+        <label for="html">HTML</label><br>
+        <input type="radio" id="html" name="language" value="HTML"><br>
+        <label for="css">CSS</label><br>
+        <input type="radio" id="css" name="language" value="CSS"><br>
+        <label for="js">JS</label><br>
+        <input type="radio" id="js" name="language" value="Javascript"><br>
+        <label>Enter contact no.</label>
+        <input type="tel" pattern="[0-9]{3}[0-9]{2}[0-9]{3}">
+        <br>
+        <button>Submit</button>
+        <br>
+        <br>
+        <label for="favcolor">Choose your favourite colour</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+        <label for="joining">Joining Date</label>
+        <input type="date" id="joining" name="joiningdate"><br><br>
+        <label for="joining1">Enter a date before today's date:</label>
+        <input type="date" id="joining1" name="joiningdate" max="2023-02-09"><br><br>
+        <label for="joining2">Enter a date after today's date:</label>
+        <input type="date" id="joining2" name="joiningdate" min="2023-02-09"><br><br>
+        <label for="datetime">Date and Time</label>
+        <input type="datetime-local" id="datetime" name="dateandtime"><br><br>
+        <label>Choose the language</label><br>
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="html" name="language" value="HTML"><br>
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="css" name="language" value="CSS"><br>
+        <label for="js">JS</label><br>
+        <input type="checkbox" id="js" name="language" value="Javascript"><br>
+        <button>Submit</button>
+        <br>
+        <br>
+        <label>Choose the shopping website</label>
+        <select name="Shopping website" size="4" multiple>
+            <option value="myntra">Myntra</option>
+            <option value="ajio">Ajio</option>
+            <option value="flipkart" selected>Flipkart</option>
+            <option value="amazon">Amazon</option>
+
+        </select><br>
+        <button>Submit</button>
+        <br>
+        <br>
+        <label>Please give details about you</label><br>
+        <textarea name="paragraph" rows="10" cols="30"></textarea>
+        <button>Click me</button>
+        <br>
+        <br>
+        
+        <fieldset>
+              <legend>Graduation details</legend>
+              <br>
+              College name<input type="text" name="cname" value="RCPIT"><br><br>
+              University name<input type="text" name="uname" value="DBATU"><br><br>
+              Graduation percentage<input type="text" name="percentage" value="85 %"><br><br>
+              <button>Submit</button>
+              
+        </fieldset>
+        <br>
+        <br>
+        <input list="sample">
+        <datalist id="sample">
+            <option id="1" value="audi" name="car">Audi</option>
+            <option id="2" value="bmw" name="car">BMW </option>
+            <option id="3" value="mercedes" name="car">Mercedes</option>
+            <option id="4" value="jaguar" name="car">Jaguar</option>
+            
+        </datalist>
+        <button>Submit</button><br><br><br><hr>
+    
+        <input type="submit" value="Click me">
+        
+    </form>
+    
+</body>
+</html>
